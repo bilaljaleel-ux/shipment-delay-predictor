@@ -13,8 +13,13 @@ from 180,000+ real supply chain records. Built with a focus on logistics operati
 Middle East and globally.
 """)
 
-model = joblib.load('late_delivery_model.pkl')
-model_columns = joblib.load('model_columns.pkl')
+import os
+
+# Get the folder this script lives in, regardless of where it's run from
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+model = joblib.load(os.path.join(BASE_DIR, 'late_delivery_model.pkl'))
+model_columns = joblib.load(os.path.join(BASE_DIR, 'model_columns.pkl'))
 
 st.header("Enter Shipment Details")
 
