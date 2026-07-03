@@ -4,7 +4,7 @@ An end-to-end machine learning tool that predicts the risk of a shipment being d
 and explains *why* — built on 180,000+ real supply chain records, with a focus on logistics 
 operations in the Middle East and globally.
 
-🔗 **[Live App](your-streamlit-link-goes-here)**
+🔗 **[Live App](https://shipment-delay-predictor-4hnssqbrrc7flsj8irswtg.streamlit.app)**
 
 ## Business Problem
 
